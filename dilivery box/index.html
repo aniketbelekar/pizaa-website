@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Delivery Box</title>
+</head>
+<body>
+    <div class="delivery-box">
+        <h2>Delivery Details</h2>
+        <form id="deliveryForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Delivery Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+
+    <!-- Pop-up message container -->
+    <div id="popupMessage" class="popup">
+        <p id="popupContent"></p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+
+    <!-- Overlay to darken the background -->
+    <div id="overlay" class="overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

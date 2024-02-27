@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza Heaven</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Pizza Heaven</div>
+            <ul>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="contact box/index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="featured" class="featured-section">
+        <h1><span>Welcome</span> to Pizza Heaven</h1>
+        <div class="pizza-images">
+            <img src="/pizza_2-removebg-preview.png" alt="Pizza 1">
+            <img src="/pizza_3-removebg-preview.png" alt="Pizza 2">
+            <img src="/pizza_4-removebg-preview.png" alt="Pizza 3">
+        </div>
+        <button onclick="redirectToMenu()">Explore Menu</button>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Explore Our Menu</h2>
+        <div class="menu-items" id="menuItems">
+            <!-- Menu items will be dynamically added here using JavaScript -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+        <p>Contact Number 801043543</p>
+        <p>gmail : pizza@gmail.com</p>
+        <!-- Include a contact form or other contact information here -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

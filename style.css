@@ -51,6 +51,11 @@ span {
     justify-items: center;
     transition: all .04s ease;
 }
+p{
+  
+    margin-top: 10px;
+    font-size: 20px;
+}
 
 .icon img {
 
@@ -97,14 +102,16 @@ section {
 }
 
 .home-img img {
-    width: 100%;
+    margin-top: 40px;
+    width: 50%;
     height: auto;
+    margin-left: 10rem;
 }
 
 .home-text {
     font-size: var(--big-font);
     line-height: 1.2;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .home-text p {
@@ -209,12 +216,11 @@ section {
     padding-top: 20px;
     height: auto;
     width: 100%;
-    transition: all ease 1s;
+   
 }
 
-.about:hover {
-    scale: 1.1;
-}
+
+
 
 .about-text h2 {
     font-size: var(--h2-font);
@@ -329,6 +335,7 @@ section {
     letter-spacing: 1px;
 
 }
+
 
 .scroll-top {
     position: fixed;
